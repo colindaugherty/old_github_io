@@ -1,7 +1,17 @@
 /*stylesheet for github site*/
 
-#delta_symbol {
+body {
+    background-color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: -32px;
+}
+
+*.bodywidth {
+    margin-left: auto;
+    margin-right: auto;
 }
