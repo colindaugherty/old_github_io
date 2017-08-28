@@ -153,7 +153,6 @@ Media Queries
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -32px;
   }
 
   *.bodywidth {
@@ -166,14 +165,6 @@ Media Queries
     margin-left: auto;
     margin-right: auto;
   }
-
-  #featuredparagraph {
-    background-color: #D7D7D7;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    }
 
   nav a:link, nav a:visited {
     color: white;
@@ -191,36 +182,6 @@ Media Queries
     color: white;
   }
 
-  ul.mainmenu {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 8px;
-    background-color: #437bbc;
-  }
-
-  ul.mainmenu li {
-    list-style: none;
-    text-align: center;
-    padding: 0 4em 0 0;
-    background-color: #437bbc;
-  }
-
-  ul.bookmenu {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 8px;
-    background-color: #437bbc;
-  }
-
-  ul.bookmenu li {
-    list-style: none;
-    text-align: center;
-    padding: 0 8.4em 0 0;
-    background-color: #437bbc;
-  }
-
   header h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -233,36 +194,6 @@ Media Queries
 
   header {
     background-color: #59A1F4;
-  }
-
-  #selected {
-    color: #59A1F4;
-  }
-
-  nav.menu {
-    background-color: #59A1F4;
-  }
-
-  div.latinverb {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  ul.latin {
-    background-color: #C5E0FF;
-    border: medium solid #437BBC;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  li.latin {
-    list-style: none;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #437BBC;
-    margin-left: -38px;
-    border-bottom-left-radius: 500px;
-    border-bottom-right-radius: 500px;
   }
 }
 
