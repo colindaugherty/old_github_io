@@ -30,7 +30,7 @@ main {
 }
 
 #theReveal {
-  position: fixed;
+  position: relative;
   top: 45%;
   left: 15%;
 }
