@@ -1,0 +1,37 @@
+/* 
+
+master stylesheet i will use everywhere
+surprisingly i actually came up with most of these combinations, so don't use my work as your own
+thanks :)
+-colin daugherty
+
+*/
+
+body {
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  *.bodywidth {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #theReveal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

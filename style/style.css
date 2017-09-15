@@ -1,37 +1,63 @@
-/* 
+/*
 
-master stylesheet i will use everywhere
-surprisingly i actually came up with most of these combinations, so don't use my work as your own
-thanks :)
+ok so this is gonna be a really crazy hectic stylesheet but imma try and organize it as much as possible
+with that being said, idk why you'd steal this but please don't gracias
 -colin daugherty
 
 */
 
-body {
-  background: #E55D87;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 12pt;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* 
+media queries beginning
+major phones first then laptops and all other devices
 
-*.bodywidth {
-  margin-left: auto;
-  margin-right: auto;
-}
+iphone 5/5s/SE */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
 
-main {
-  margin-left: auto;
-  margin-right: auto;
 }
+/* iphone 6/6s/7 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+  
+}
+/* iphone 6+/6s+/7+ */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
 
-#theReveal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+/* samsung note/s7/s7 edge */
+@media only screen 
+and (min-width : 320px) {
+
+}
+/* everything else */
+@media all and (orientation: landscape) {
+  body {
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main {
+    background: #C3B199;
+    text-align: left;
+  }
+
+  *.content {
+    padding: 0.25%;
+  }
+
+  ul.main {
+
+  }
 }
