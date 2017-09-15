@@ -19,6 +19,8 @@ main {
 }
 
 *.content {
+  margin-left: auto;
+  margin-right: auto;
   padding: 0.25%;
 }
 
@@ -82,6 +84,6 @@ and (min-width : 320px) {
     background: transparent;
     position: absolute;
     left: -1.8%;
-    top: -1.5%;
+    top: -1.35%;
   }
 }
