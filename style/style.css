@@ -57,7 +57,7 @@ and (min-width : 320px) {
     padding: 0.25%;
   }
 
-  ul.main, ul.main li {
+  ul.main, ul.main li, ul.main li a, ul.main li a:hover, ul.main li a:visited, ul.main li a:link {
     display: inline;
     background: #000000;
     color: #ffffff;
