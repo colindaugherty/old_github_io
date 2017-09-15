@@ -63,19 +63,23 @@ and (min-width : 320px) {
     text-align: left;
   }
 
-  ul.main {
-    color: #000;
-    padding-right: 41.4%;
-  }
-
   ul.main, ul.main li, ul.main li a, ul.main li a:hover, ul.main li a:visited, ul.main li a:link {
     display: inline;
     background: #000000;
     color: #ffffff;
-    padding: 1em;
+    padding-left: 1.885em;
+    padding-top: 100%;
+    padding-bottom: 0.45%;
   }
 
-  #delta {
+  ul.main {
+    color: #000;
+    padding-right: 62.65%;
+  }
+
+  #delta, #delta a {
+    padding: 0em;
+    background: transparent;
     position: absolute;
     left: -1.8%;
     top: -1.8%;
