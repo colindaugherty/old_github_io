@@ -11,12 +11,63 @@ body {
     background: #E55D87;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    animation: colorchange infinite; /* animation-name followed by duration in seconds*/
+    /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange infinite; /* Chrome and Safari */
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 12pt;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @keyframes colorchange
+  {
+    0% {
+      background: -webkit-linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+      background: linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+    }
+    25% {
+      background: -webkit-linear-gradient(43deg, rgb(133, 158, 83), rgb(239, 171, 171));
+      background: linear-gradient(43deg, rgb(133, 158, 83), rgb(239, 171, 171));
+    }
+    50% {
+      background: -webkit-linear-gradient(140deg, rgb(83, 142, 158), rgb(221, 99, 99));
+      background: linear-gradient(140deg, rgb(83, 142, 158), rgb(221, 99, 99));      
+    }
+    75% {
+      background: -webkit-linear-gradient(140deg, rgb(189, 65, 65), rgb(221, 99, 184));
+      background: linear-gradient(140deg, rgb(189, 65, 65), rgb(221, 99, 184));      
+    }
+    100% {
+      background: -webkit-linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+      background: linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+    }
+  }
+
+  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+  {
+    0% {
+      background: -webkit-linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+      background: linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+    }
+    25% {
+      background: -webkit-linear-gradient(43deg, rgb(133, 158, 83), rgb(239, 171, 171));
+      background: linear-gradient(43deg, rgb(133, 158, 83), rgb(239, 171, 171));
+    }
+    50% {
+      background: -webkit-linear-gradient(140deg, rgb(83, 142, 158), rgb(221, 99, 99));
+      background: linear-gradient(140deg, rgb(83, 142, 158), rgb(221, 99, 99));      
+    }
+    75% {
+      background: -webkit-linear-gradient(140deg, rgb(189, 65, 65), rgb(221, 99, 184));
+      background: linear-gradient(140deg, rgb(189, 65, 65), rgb(221, 99, 184));      
+    }
+    100% {
+      background: -webkit-linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+      background: linear-gradient(180deg, rgb(156, 117, 83), rgb(239, 171, 171));
+    }
   }
   
   *.bodywidth {
