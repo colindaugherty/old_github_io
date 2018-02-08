@@ -9,7 +9,7 @@ thanks :)
 
 body {
     background: linear-gradient(210deg, #388b76, #b84086, #40b4b8, #d17c7c, #243b53, #a7a7a7, #cdc7c7, #006859, #d68f6a, #393939, #4b7536);
-    background-size: 2200% 2200%;
+    background-size: 100% 100%;
     -webkit-animation: colorchanger 9s ease infinite;
     -moz-animation: colorchanger 9s ease infinite;
     animation: colorchanger 9s ease infinite;

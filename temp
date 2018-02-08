@@ -25,3 +25,11 @@ main {
   text-align: left;
   height: 85%;
 }
+
+font for pi website
+
+html-
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+css-
+font-family: 'Source Code Pro', monospace;
